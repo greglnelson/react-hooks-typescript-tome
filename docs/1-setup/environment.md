@@ -49,7 +49,7 @@ There's a bunch of Software that you need on your machine. We aren't providing i
 
 To accompany the material in this book, we have created a special GitHub repository full of tasks to complete.
 
-Begin by forking the `tasks` repository to your GitHub account: <https://github.com/UD-CISC275-S22/tasks/fork>
+Begin by forking the `tasks` repository to your GitHub account: <https://github.com/2022-autumn-cos-420/tasks/fork>
 
 ## Enable Workflow Actions
 
