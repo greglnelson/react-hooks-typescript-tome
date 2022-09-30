@@ -149,7 +149,7 @@ Within a minute or two of finishing, your site should deploy. You can access the
 
 If the site failed to build properly, there will be a Red X. Clicking the Red X will give you more details.
 
-Otherwise, hopefully your changes will now be live on the website. You might need to do a hard-refresh.
+Otherwise, hopefully your changes will now be live on the website. You might need to do a [hard-refresh](https://www.howtogeek.com/672607/how-to-hard-refresh-your-web-browser-to-bypass-your-cache/).
 
 At this point in time, your setup is done.
 
