@@ -121,7 +121,7 @@ The next command to run is the tests, which will give another perspective on whe
 $> npm run test:cov
 ```
 
-So far, we only have one test, which checks to make sure that the text `CISC275` is in your website's content somewhere. If you ever decide to remove that text, remember to update that test case to check something similar.
+So far, we only have one test, which checks to make sure that the text `COS420` is in your website's content somewhere. If you ever decide to remove that text, remember to update that test case to check something similar.
 
 # Deploying the Site
 
