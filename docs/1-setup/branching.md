@@ -85,7 +85,7 @@ Then, run the site:
 $> npm run start
 ```
 
-You are now ready to add the text `"Hello World"` somewhere. Up to you to decide, but we would probably suggest the body. Make sure you don't replace the text `"CISC275"` because the original tests will still look for those!
+You are now ready to add the text `"Hello World"` somewhere. Up to you to decide, but we would probably suggest the body. Make sure you don't replace the text `"COS420"` because the original tests will still look for those!
 
 Once you have visually confirmed the text is there, you can use `CTRL+C` to cancel the `npm run start` command running in the termainal. Then, run the tests again:
 
