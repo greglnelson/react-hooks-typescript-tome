@@ -322,7 +322,7 @@ $> git checkout -b solved-quizzer
 $> git merge upstream/task-quizzer
 ```
 
-You will find that we have provided VERY little code. It's really just the `quizzer` folder, the `quizzer/Quizzer.tsx` file, and the `quizzer/Quizzer.test.tsx` file. We expect you to add more files in order to achieve the final result.
+You will find that we have provided VERY little code. It's really just the `quizzer` folder, the `quizzer/Quizzer.tsx` file, and the `quizzer/Quizzer.test.tsx` file. We expect you to add more files in order to achieve the final result. **Look at the example Movies application source code on Github to help get started organizing files and components, there's a lot you can use from there as inspiration / examples!**
 
 ## Task Requirements
 
@@ -398,7 +398,9 @@ None of this should affect your existing tests, since they work independently of
 
 Given the open-ended nature of this application, you are being graded by a rubric. Completing more requirements will tend to get you more points, but so will writing tests. You also earn points for things like sketching the application and making up test data.
 
-Everyone will feel comfortable completing a different number of requirements, and have different amounts of time they can commit. We understand how this can be stressful and we appreciate your flexibility in approaching this activity the right way. Recognize that you can pass the course even if you are struggling to get started - you will be getting another attempt when we get to he Final Project, and there you will explicitly have a team, so things are likely to go more smoothly.
+Everyone will feel comfortable completing a different number of requirements, and have different amounts of time they can commit. We understand how this can be stressful and we appreciate your flexibility in approaching this activity the right way. Recognize that you can pass the course even if you are struggling with doing this on your own - you'll keep learning in your team project!
+
+For grading, doing 8 of the 14 requirements, with at least 3 automated tests per requirement, and submitting a complete mockup sketch, is enough to get 100% for this assignment.
 
 ### Sketch
 
@@ -409,8 +411,7 @@ If you produce a sketch (and you should), then embed the sketch somewhere on you
 Every time you complete a requirement, add them to a bulleted list of "Completed Features" that we can see on your website BELOW the Quizzer and Sketch. Don't forget to keep this list updated!
 
 ## Submission
-
-Soon, we will want to review your application so that we can make decisions about team assignments. Do not delay in submitting for this Task - as soon as you have started, deploy your application and submit on Canvas.
+As you work, keep deploying your application and eventually submit on Brightspace.
 
 ```sh
 $> git push --set-upstream origin solved-quizzer
@@ -421,8 +422,6 @@ As you make more changes, add and commit regularly. Every now and then, you can 
 ```sh
 $> git push
 ```
-
-Failure to submit this assignment tells us something about your preparation for the Final Project. There will be more time before the Final Project begins to work on this Task, but do not prevent us from viewing your application!
 
 ## Creative Freedom
 
