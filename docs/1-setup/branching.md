@@ -28,11 +28,16 @@ We have previously mentioned that Git organizes projects into repositories, and 
 
 The history of commits is not linear. Instead, it is a graph, because at some points we want to **branch** off changes and work on them separately. The big advantage of this model is that we can work on new features for our application in isolation, without breaking the `main` branch (the special branch that most represents the stable codebase over time). You can branch off branches, and undo branches, and merge branches back into each other. It's a lot to learn all at once.
 
-Would you like some supervised practice with branching? Try this excellent [interactive tutorial](https://learngitbranching.js.org/?locale=en_US)
+# Interactive Practice
+
+Now we'll do some practice - don't skip this! (You'll turn in a screenshot of your completion of the final two levels as specified in the assignment)
+Use this [interactive tutorial](https://learngitbranching.js.org/?locale=en_US) and complete: 1) main "introduction sequence" 1 thru 4, 2) refresh the page, then at the top of the lessons, select "remote" then complete "Push & Pull -- Git Remotes!" 1 thru 6. You can complete more now or wait and we'll do more later.
 
 <!-- TODO: Get a picture here -->
 
-We can use `git checkout` to switch to another branch, replacing the files that we see in the folder based on the commits in that branches history. We also use `git checkout -b` to create a new branch based on the current branch. We can combine changes from another branch with `git merge`.
+# Back to branches on your local machine
+
+As you now know from the practice, we can use `git checkout` to switch to another branch, replacing the files that we see in the folder based on the commits in that branches history. We also use `git checkout -b` to create a new branch based on the current branch. We can combine changes from another branch with `git merge`.
 
 # Remotes
 
@@ -66,6 +71,8 @@ Then, we have you `checkout` a new branch (the `-b` means create-branch-if-neede
 Finally, we `merge` in the upstream branch named `task-first-branch` which has those instructor-provided files we mentioned. Remember, at any given time, there are multiple repositories, each potentially with their own version of a given branch. So if you see things like `upstream/task-first-branch`, we're referring to the remote's version of that branch (which might not even have a local version). 
 
 Depending on your operating system and command line setup, you may be asked to write a "commit message" when you try to `merge`. You can use the default message.
+
+WARNING: In the unlikely case you see something like "merge error" or "merge conflict" when running the commands, stop now and ask for help.
 
 ## The New Test
 
