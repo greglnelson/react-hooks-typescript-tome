@@ -109,7 +109,7 @@ Open Visual Studio Code, and use the "File" -> "Open Folder" menu to open the re
 
 ![Screenshot of VS Code in action](../images/vs-code-screenshot.png)
 
-Edit `src/App.tsx` to include your name somewhere in the `return` statement, alongside the other text.
+Edit `src/App.tsx` to include your name somewhere in the `return` statement, after "automatically reload."
 
 Save the file, and then check the website again in your browser. The site should update automatically.
 
