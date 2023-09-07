@@ -72,7 +72,7 @@ The site should now be able to deploy whenever you push a change to the `main` b
 
 # Get the Tasks
 
-Once the repository is forked and deployed, click the green button that says "<> Code", copy the URL, and use the command below to clone the repo and move into the cloned directory:
+Once the repository is forked and deployed, click the green button that says "<> Code", copy the URL, and use the command below to clone the repo and move into the cloned directory. Do not use an SSH link, it needs to say https:// in the front of it.
 
 ```sh
 $> git clone https://WHATEVER-URL-YOU-GET
