@@ -255,6 +255,6 @@ $> git push --set-upstream origin solved-html-css
 ```
 
 
-Anyway, next you need to make a Pull Request back to your `main` branch on the GitHub repository. Make sure your tests pass and the site deploys, before you submit!
+Anyway, next you need to make a Pull Request back to your `main` branch on the GitHub repository. There should be a big green button above your main branch on github with something like "compare and pull request". Make sure your tests pass and the site deploys, before you submit!
 
 Once you're done, we'll start learning more about [TypeScript &raquo;](../3-control/index.md)
