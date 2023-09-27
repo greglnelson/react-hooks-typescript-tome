@@ -94,13 +94,15 @@ $> npm run start
 
 You are now ready to add the text `"Hello World"` somewhere. Up to you to decide, but we would probably suggest the body. Make sure you don't replace the text `"COS420"` because the original tests will still look for those!
 
-Once you have visually confirmed the text is there, you can use `CTRL+C` to cancel the `npm run start` command running in the termainal. Then, run the tests again:
+Once you have visually confirmed the text is there, you can use `CTRL+C` to cancel the `npm run start` command running in the terminal. Then, run the tests again:
 
 ```sh
 $> npm run test:cov
 ```
 
 If all tests pass, then you should be ready to make a Pull Request and deploy your change to the `main` branch.
+
+Once you're done, you need to add your changed files to a new commit - that will put your changes into git. Go back to the last chapter if you can't remember the commands.
 
 ## Make a Pull Request
 
