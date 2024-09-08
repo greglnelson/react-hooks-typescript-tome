@@ -166,7 +166,7 @@ The only file we should have edited by now is `App.tsx`, so that will be listed.
 
 ```sh
 $> git add src/App.tsx
-$> git commit -message "Added name to App"
+$> git commit -m "Added name to App"
 $> git push
 ```
 
