@@ -1,4 +1,4 @@
----
+<img width="785" alt="image" src="https://github.com/user-attachments/assets/8a7ca0c9-f360-41d3-bfaf-733ecc1263e0">---
 layout: default
 title: Branching Out
 nav_order: 1.2
@@ -118,8 +118,8 @@ This makes the local branch `solved-first-branch` available on the remote, and t
 
 The default base repository for your Pull Request is the original repository you forked (which belongs to us). You do not have permissions to make Pull Requests to the repository, nor do you want to. Instead, you will need to choose your own repository from the dropdown. Make sure you do not make a Pull Request to someone else, or you will be a nuisance to them!
 
-![A screenshot of the Pull Request menu on Github](../images/change-base-repo-pr-alt.png)
+![A screenshot of the Pull Request menu on Github](../images/first-pull-request.png)
 
-Assuming you do not have any issues with your code, you can click through the menus and initiate the Pull Request. Once completed, the `main` branch is updated and should rebuild itself shortly. After a couple minutes, your changes should now be live on the deployed site.
+Assuming you do not have any issues with your code, you can click through the menus and initiate the Pull Request. To complete the pull request, scroll down and accept your pull request to merge your changes. Once completed, the `main` branch is updated and should rebuild itself shortly. After a couple minutes, your changes should now be live on the deployed site.
 
 Once you're done, we can start our [Basic Application &raquo;](../2-app/index.md)
