@@ -170,7 +170,7 @@ $> git commit -m "Added name to App"
 $> git push
 ```
 
-The normal shorthand form of `git commit -message` is `git commit -m`.
+The `git commit -m "the message"` stands for `git commit --message="the message"`.
 
 If all goes well, the changes will be pushed and you can go back to the remote repository in your browser (where you originally got the URL to clone the repository). Make sure you go to your fork, and not the original repository (since that one does not belong to you).
 
