@@ -1,4 +1,4 @@
-<img width="785" alt="image" src="https://github.com/user-attachments/assets/8a7ca0c9-f360-41d3-bfaf-733ecc1263e0">---
+---
 layout: default
 title: Branching Out
 nav_order: 1.2
