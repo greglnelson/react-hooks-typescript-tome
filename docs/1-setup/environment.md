@@ -77,19 +77,24 @@ You'll need to enable Workflow actions in your forked repository; go to the Acti
 
 If the workflow doesn't seem to be running, click "Deploy dev build on main push" and then click "Run workflow". This will manually trigger the workflow to run, although you may have to reload the page to see it.
 
-![Run Workflow](../images/run_workflow.png)
+ 
+![Run Workflow](../images/deploy_workflow.png)
 
 You can check the progress of a workflow by clicking on it:
+replace below with click on workflow.png
 
-![Workflow Progress](../images/workflow_progress.png)
+
+![Workflow Progress](../images/click_on_workflow.png)
 
 Click on the "deploy" button on the left sidebar to see the details of the deployment.
 
 ![Deployment Details](../images/click_again.png)
 
-Assuming nothing goes wrong during deployment, the final step can be expanded to get the URL of your live site. Click on the URL to visit your site.
+Now, you can go back to your repository's settings to find the url for your live site.
 
-![Live Site](../images/final_link.png)
+![Deployed URL](../images/find-your-deployed-url.png)
+
+Click on the URL to visit your site.
 
 The site should now be able to deploy whenever you push a change to the `main` branch!
 
@@ -160,11 +165,15 @@ $> git status
 
 The only file we should have edited by now is `App.tsx`, so that will be listed. We need to *add* this file to the *stage* list, write a *commit* message, and then *push* the change. You can do this through the VS Code interface, or through the command line:
 
+(Note: you may see another file `package-lock.json` as changed. If so, you should also *add* that file. Not that you need to know this starting out, but if you are curious, it holds more detailed information about the exact versions of packages that you installed with `npm install`.)
+
 ```sh
 $> git add src/App.tsx
-$> git commit -m "Added name to App"
+$> git commit -message "Added name to App"
 $> git push
 ```
+
+The normal shorthand form of `git commit -message` is `git commit -m`.
 
 If all goes well, the changes will be pushed and you can go back to the remote repository in your browser (where you originally got the URL to clone the repository). Make sure you go to your fork, and not the original repository (since that one does not belong to you).
 
