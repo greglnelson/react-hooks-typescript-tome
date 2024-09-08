@@ -76,13 +76,10 @@ You'll need to enable Workflow actions in your forked repository; go to the Acti
 ![Check Workflow](../images/check_workflow.png)
 
 If the workflow doesn't seem to be running, click "Deploy dev build on main push" and then click "Run workflow". This will manually trigger the workflow to run, although you may have to reload the page to see it.
-
  
 ![Run Workflow](../images/deploy_workflow.png)
 
 You can check the progress of a workflow by clicking on it:
-replace below with click on workflow.png
-
 
 ![Workflow Progress](../images/click_on_workflow.png)
 
@@ -110,7 +107,7 @@ $> cd tasks
 You'll need to add our original repository as an upstream remote, allowing you to pull in changes that we make along the way:
 
 ```sh
-$> git remote add upstream https://github.com/2022-autumn-cos-420/tasks.git
+$> git remote add upstream https://github.com/COS420-Fall24/tasks.git
 ```
 
 # Install Dependencies and Run
@@ -186,3 +183,4 @@ Otherwise, hopefully your changes will now be live on the website. You might nee
 At this point in time, your setup is done.
 
 Let's try the first REAL task: [Branching Out &raquo;](../1-setup/branching.md)
+
