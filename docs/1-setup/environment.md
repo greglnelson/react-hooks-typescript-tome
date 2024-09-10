@@ -118,7 +118,7 @@ Now you need to install all the dependencies for the project, which will take a 
 $> npm install
 ```
 
-Ignore warnings about vulnerabilities. They aren't as bad as they sound. If you were making a production application, you could deal with them, but this is just a first learning experience. But keep it in the back of your mind that security does matter and you have to learn that stuff eventually!
+(Note that sometimes, you might have to restart your machine if you see a "commond not recognized" error). Ignore warnings about vulnerabilities. They aren't as bad as they sound. If you were making a production application, you could deal with them, but this is just a first learning experience. But keep it in the back of your mind that security does matter and you have to learn that stuff eventually!
 
 At this point, in theory, you should be able to run the starter application.
 
