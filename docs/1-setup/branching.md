@@ -92,7 +92,7 @@ Then, run the site:
 $> npm run start
 ```
 
-You are now ready to add the text `"Hello World"` somewhere. Up to you to decide, but we would probably suggest the body. Make sure you don't replace the text `"COS420"` because the original tests will still look for those!
+You are now ready to add the text `"Hello World"` somewhere. Up to you to decide, but we would probably suggest the body. That is the part of the page in App.tsx where the "Edit src/App.tsx and save. This page..." is. This is the same file you edited and added your name in before. Make sure you don't replace the text `"COS420"` because the original tests will still look for those!
 
 Once you have visually confirmed the text is there, you can use `CTRL+C` to cancel the `npm run start` command running in the terminal. Then, run the tests again:
 
@@ -114,7 +114,7 @@ The first time you push your changes for this branch, you will need to run the f
 $> git push --set-upstream origin solved-first-branch
 ```
 
-This makes the local branch `solved-first-branch` available on the remote, and then pushes the branches' commits. You can now return to the repository on GitHub, where you will be presented with an orange box offering to make a Pull Request. This will let you merge the new branch into your `main` branch (thereby deploying your latest changes to the site). Click the button to get started.
+This makes the local branch `solved-first-branch` available on the remote, and then pushes the branches' commits. Read the output of your push command which will tell you how to make a pull request. You can now return to the repository on GitHub, where you will be presented with an orange box offering to make a Pull Request. This will let you merge the new branch into your `main` branch (thereby deploying your latest changes to the site). Click the button to get started.
 
 The default base repository for your Pull Request is the original repository you forked (which belongs to us). You do not have permissions to make Pull Requests to the repository, nor do you want to. Instead, you will need to choose your own repository from the dropdown. Make sure you do not make a Pull Request to someone else, or you will be a nuisance to them!
 
