@@ -32,19 +32,19 @@ Make some tweaks to the HTML content of the page. View the changes in the browse
 
 In general, all HTML tags are written with angle brackets (`<h1>`). You gotta have a start tag and an end tag (`<h1>` and `</h1>`) surrounding the content. Tags can be nested inside of other tags.
 
-## Headers
+## Headings
 
-Let's start with a basic tag, the first-level header `h1`.
+Let's start with a basic tag, the first-level heading `h1`.
 
 By the way, anytime you see a chunk of code in this book with a pencil button to the right, you can click the pencil to edit and run the code right here on the page!
 
 ```tsx
 export function App(): JSX.Element {
-    return <h1>This is header text</h1>;
+    return <h1>This is heading text</h1>;
 }
 ```
 
-There's also `h2`, `h3`, and so on.
+There's also `h2`, `h3`, and so on. See more about (headings and other HTML and CSS elements here)[https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements].
 
 ## Text (Paragraph)
 
@@ -56,7 +56,7 @@ export function App(): JSX.Element {
 
 ## Div
 
-What if we want both header and text? We need to group them together under one parent. That parent shouldn't be visible. This is the purpose of the `div` (short for "division", as in "to group together") tag.
+What if we want both a heading and text? We need to group them together under one parent. That parent shouldn't be visible. This is the purpose of the `div` (short for "division", as in "to group together") tag.
 
 ```tsx
 export function App(): JSX.Element {
@@ -233,7 +233,7 @@ $> npm run test:cov
 
 Since we are now failing these tests, we need to fix them. Refer to the information in the page above to tackle each test in turn:
 
-* Add a header
+* Add a heading
 * Add an image with alt text
 * Add a list with at least three elements
 * Change the background color of the header area (edit the CSS class in App.css that the `<header>` on your page already uses, review the CSS rules section of the textbook if you need help) 
