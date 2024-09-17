@@ -236,7 +236,7 @@ Since we are now failing these tests, we need to fix them. Refer to the informat
 * Add a header
 * Add an image with alt text
 * Add a list with at least three elements
-* Change the background color of the header area
+* Change the background color of the header area (edit the CSS class in App.css that the <header> already uses, review the CSS rules section of the textbook if you need help) 
 * Add a bootstrap button with the text `Log Hello World`
 * Make the button log `Hello World!` when clicked
 * Put a red-filled rectangle in each column using a `div` tag with `width`, `height`, and `backgroundColor` styles.
