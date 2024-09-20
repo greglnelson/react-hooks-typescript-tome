@@ -410,7 +410,7 @@ Check your status with the tests by running:
 $> npm run test:cov
 ```
 
-If you are overwhelmed by the number of failing tests, you can focus on just one at a time by typing `t` and entering the name of the function you want to test (e.g., `bookEndList`). You can go back to running all the tests by typing `a`.
+If you are overwhelmed by the number of failing tests, you can focus on just one at a time by typing `t` and entering the name of the function you want to test (e.g., `bookEndList`). You can go back to running all the tests by typing `a`. See the [how to and debugging guide](https://docs.google.com/document/d/13LEuvh0lYa58r3VRJC2MTis6pHG-6kop7Z0KicgiWxk/edit#heading=h.pmzgy3mamwn7), and [the guide to common errors and fixing them.](https://drive.google.com/drive/u/1/folders/1GQHPgGNT2fWM9eTqFUUxD3rme4zoMW43).
 
 As you complete functions, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
 
