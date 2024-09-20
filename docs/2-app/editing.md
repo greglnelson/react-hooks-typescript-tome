@@ -246,9 +246,7 @@ To earn full points, you must pass all the tests.
 
 Once you are done, add and commit all your changes for the branch. Then, you will need to push your local branch to the remote repository. If you don't remember how to do that, look back at the previous chapter for reference.
 
-We will no longer remind you about this command to push a new branch after this page!
-
-After doing the above, this command will 
+We will no longer remind you about this command below to push your changes from your local repo to your github repo!
 
 ```sh
 $> git push --set-upstream origin solved-html-css
