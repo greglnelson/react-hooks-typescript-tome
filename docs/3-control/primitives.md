@@ -318,13 +318,13 @@ $> git merge upstream/task-functions
 
 You'll need to edit the `functions.ts` file.
 
-Check your status with the tests by running:
+Like last time, always start by checking your status with the tests by running:
 
 ```sh
 $> npm run test:cov
 ```
 
-As you complete functions, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
+As you complete functions, use the `git add`/`git commit` or the Visual Studio Code interface (below the magnifying glass) to make small regular commits. Practice the habit now!
 
 Once you are passing all the tests, you should be able to push your branch to the remote and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
 
