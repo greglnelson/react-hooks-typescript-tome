@@ -414,7 +414,7 @@ If you are overwhelmed by the number of failing tests, you can focus on just one
 
 As you complete functions, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
 
-Once you are passing all the tests, you should be able to push your branch to the remote and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
+Once you are passing all the tests, you should be able to push your branch to from your local repo to your remote repo (i.e. origin, which is your github repo) and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
 
 ```sh
 $> git push --set-upstream origin solved-arrays
