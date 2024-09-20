@@ -231,7 +231,8 @@ Run:
 $> npm run test:cov
 ```
 
-Since we are now failing these tests, we need to fix them. Refer to the information in the page above to tackle each test in turn:
+Note: if you do not see new failing tests after running that, you have skipped or not run the commands above correctly.
+Since we are now failing these tests, we need to fix them. Refer to the information in the page above to tackle each test in turn (such as by pasting in some relevant example code and then editing that code to solve the problem):
 
 * Add a heading
 * Add an image with alt text
@@ -239,18 +240,23 @@ Since we are now failing these tests, we need to fix them. Refer to the informat
 * Change the background color of the header area (edit the CSS class in App.css that the `<header>` on your page already uses, review the CSS rules section of the textbook if you need help) 
 * Add a bootstrap button with the text `Log Hello World`
 * Make the button log `Hello World!` when clicked
-* Put a red-filled rectangle in each column using a `div` tag with `width`, `height`, and `backgroundColor` styles.
+* Put a red-filled rectangle in each column using a `div` tag with `width`, `height`, and `backgroundColor` styles. (Note that the test will not pass if you use a CSS class, you'll need to directly style the element as in the example code above.) 
 
 To earn full points, you must pass all the tests.
 
-Once you are done, add and commit all your changes for the branch. Then, you will need to push your local branch to the remote repository.
+Once you are done, add and commit all your changes for the branch. Then, you will need to push your local branch to the remote repository. If you don't remember how to do that, look back at the previous chapter for reference.
+
 We will no longer remind you about this command to push a new branch after this page!
+
+After doing the above, this command will 
 
 ```sh
 $> git push --set-upstream origin solved-html-css
 ```
 
 
-Anyway, next you need to make a Pull Request back to your `main` branch on the GitHub repository. There should be a big green button above your main branch on github with something like "compare and pull request". Make sure your tests pass and the site deploys, before you submit!
+Now that your local solved branch has been pushed and is on Github with the same name, look at the output of the push command to find a link to create a pull request on Github. You need to make a Pull Request back to *your repository's* `main` branch on your GitHub repository. Or you can go to your Github task repo, which will be at `https://github.com/your-github-username/tasks/` and click on Pull Request to make one. See the previous chapter for more details. 
+
+Make sure your tests pass and the site deploys, after you make your pull requst and complete it by clicking the large green merge button (i.e. you merge the changes you pushed into your github repo's main branch).
 
 Once you're done, we'll start learning more about [TypeScript &raquo;](../3-control/index.md)
