@@ -23,6 +23,7 @@ This irreverant, sloppy, but interactive textbook wants to teach you how to make
    1. [State](4-state/state.md)
    2. [Components](4-state/components.md)
    3. [Forms](4-state/forms.md)
+4B. [Firebase](4B-firebase/index.md)
 5. [Complex Representations](5-complex/index.md)
    1. [Nested Examples](5-examples/index.md)
    2. [Full Application](5-complex/complex.md)
