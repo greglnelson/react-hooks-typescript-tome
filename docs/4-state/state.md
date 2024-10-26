@@ -558,7 +558,7 @@ If your repository still has the `HtmlCss.test.tsx` and `text.test.tsx` files, t
 
 ## Creating Components
 
-For this task, you will ultimately create 5 new components. We have provided you with the skeleton of all 5 components, one additional fully-completed component, and extensive tests for each component. We have also added them to the bottom of the `App` component, separated by horizontal rules (`hr` HTML tags).
+For this task, you will ultimately create 3 new components. We have provided you with the skeleton of all these components, one additional fully-completed component, and extensive tests for each component. We have also added them to the bottom of the `App` component, separated by horizontal rules (`hr` HTML tags).
 
 You are going to need to edit the components themselves and include them in your `App` component. Remember that you can view your website locally by running it with:
 
@@ -592,20 +592,6 @@ The `ChangeType` component simulates another an editor for a quiz application th
 * When the type is `short_answer_question`, the text `Short Answer` should be visible.
 * The initial type must be `short_answer_question`.
 
-### StartAttempt
-
-The `StartAttempt` component simulates yet another part of the quiz application, this time providing a "Start" and "Stop" button for the quiz. Since the quiz should have a limited number of attempts, there is also a "Mulligan" button to give more attempts.
-
-* You will need two pieces of state: the number of attempts and whether the quiz is in progress.
-  * The initial number of attempts is 4
-  * The quiz is initially NOT in progress
-* There is a button labelled `Start Quiz` that puts the Quiz in progress and decreases the number of attempts by one.
-* There is a button labelled `Stop Quiz` that stops the Quiz from being in progress.
-* There is a button labelled `Mulligan` that increase the attempts by one.
-* When the quiz is in progress, the `Start Quiz` and `Mulligan` buttons are disabled.
-* When the quiz is not in progress, the `Stop Quiz` button is disabled.
-* When the attempts are zero, the `Start Quiz` button is disabled.
-
 ### TwoDice
 
 The `TwoDice` component will simulate a game where you roll two dice in an attempt to get matching values. However, you lose the game if your dice ever come up as a pair of ones ("snake eyes").
@@ -614,40 +600,11 @@ The `TwoDice` component will simulate a game where you roll two dice in an attem
 * Each die's value should be rendered in the View in a `span` tag of their own, with the first dice having the `data-testid` of `left-die` and the second dice having the `data-testid` of `right-die`.
 * You will need two "Roll" buttons (labelled `Roll Left` and `Roll Right`).
 * Clicking a Roll button will change the value for the corresponding dice using the provided `d6` function.
-* The initial values of the dice cannot be the same.
+* Make the default initial values of the dice be different, i.e. each value in useState<number>(value)
 * When the two states are equal, render a message that includes the word `Lose`.
 * When the two states are equal, render a message that includes the word `Win`.
 * If you do all these and are still not passing all tests, read the test file, it is a good practice! In much of software engineering, the tests *are* the product spec.
 
-### CycleHoliday
-
-The `CycleHoliday` component is a little more complicated, but should be an opportunity to be creative. Think about your 5 favorite holidays, and then find 5 emojis that represent them. You will create two buttons that let you "cycle" through each holiday, one button alphabetically and the other button by time in the year. Ultimately, the holidays you pick are up to you, and we will not micromanage your choice of alphabetization or specific date chosen EXCEPT that the two orderings should not be the same (because that's no fun).
-
-* You will need one state, either a `string` or an enumeration of 5 strings like `QuestionType` (perhaps named `Holiday`).
-* You will need to define two functions (or two `Record`s) that can take in an existing holiday and produce the next holiday - one function should produce the next holiday alphabetically, and the other produces the next holiday in the year.
-* The view should render the current holiday with the text `Holiday: ` followed by the emoji (e.g., `Holiday: 🎃`).
-* The first button should include the text `Alphabet` somewhere (e.g., `Advance by Alphabet`) and changes the current holiday to the next one alphabetically.
-* The second button should include the text `Year` somewhere (e.g., `Advance by Year`) and changes the current holiday to the next one in the year.
-
-For example, let us say we only had three holidays:
-
-* 🎏 to represent the **Dr**agon Boat Festival in the summer
-* 🎃 to represent **H**alloween at the end of October
-* 🪔 to represent **Di**iwali earlier in October
-
-Then the transitions in the year would be:
-
-* 🎏 -> 🪔
-* 🪔 -> 🎃 
-* 🎃 -> 🎏
-
-And the transitions alphabetically would be:
-
-* 🪔 -> 🎏
-* 🎏 -> 🎃 
-* 🎃 -> 🪔
-
-If you need help finding emojis, then you can use a website like [emojis.wiki](https://emojis.wiki/)
 
 ## Testing and Deploying
 
@@ -659,8 +616,11 @@ $> npm run test:cov
 
 If you are overwhelmed by the number of failing tests, you can focus on just one at a time by typing `p` and entering the name of the file you want to test (e.g., `Counter.test.tsx`). You can go back to running all the tests by typing `a`.
 
+See the [common issues guide for this task](https://docs.google.com/document/d/1K8AAZ2uQU9nmsu1gHSa49Ieyj0hC8FzVaIk78XULCQw/edit?tab=t.0#bookmark=id.hq0mysupluhl) and the [instructions](https://docs.google.com/document/d/1aFsbyKnUYfSZb-ns5zbs0D0CsTSDuAi3nzcEKzp6kVI/edit#heading=h.glid2899u37z) for installing the extension that lets you use the VSCode debugger on your tests (highly recommend learning that and generally avoiding print statement based debugging).
+
 As you complete components, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
 
+Remember to 
 Once you are passing all the tests, you should be able to push your branch to the remote and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
 
 ```sh
