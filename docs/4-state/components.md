@@ -637,14 +637,6 @@ Currently, the component does not work, since the box always stays the same colo
 
 You must NOT add or remove components; you can only *modify* the existing components.
 
-## Fix `ShoveBox`
-
-The `ShoveBox` component provides a button that moves an adjacent box farther away, by increasing the boxes left margin.
-
-Currently, part of the component's returned body is commented out because it is broken and crashes your application. Uncomment the component's body in `src/ShoveBox.tsx` and then fix the Component so that it works correctly.
-
-You must NOT add or remove components; you can only *modify* the existing components.
-
 <!--
 TODO: Decided not to use this question. It's too easy to game, and doesn't say its point clearly enough. I wanted something where students would see that React doesnt' update its variables immediately. But it's a relatively rare situation. For now, I'm holding off on this until we get something better.
 
@@ -667,6 +659,8 @@ $> npm run test:cov
 If you are overwhelmed by the number of failing tests, you can focus on just one at a time by typing `p` and entering the name of the file you want to test (e.g., `Counter.test.tsx`). You can go back to running all the tests by typing `a`.
 
 As you complete components, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
+
+See the [common issues guide for this task](https://docs.google.com/document/d/1K8AAZ2uQU9nmsu1gHSa49Ieyj0hC8FzVaIk78XULCQw/edit?tab=t.0#bookmark=id.v6n54yly1nc0) and the [instructions](https://docs.google.com/document/d/1aFsbyKnUYfSZb-ns5zbs0D0CsTSDuAi3nzcEKzp6kVI/edit#heading=h.glid2899u37z) for installing the extension that lets you use the VSCode debugger on your tests (highly recommend learning that and generally avoiding print statement based debugging).
 
 Once you are passing all the tests, you should be able to push your branch to the remote and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
 
