@@ -31,7 +31,7 @@ Before working with Firebase you'll need to not only get a Firebase webapp going
 
 Here is a walk-through video (an updated version) that goes through these steps from the perspective of starting with a fresh react project.
 
-![Firebase setup Video](https://video.maine.edu/media/Setting%20Up%20Firebase/1_0kgpvmqm)
+[Firebase setup Video](https://video.maine.edu/media/Setting%20Up%20Firebase/1_0kgpvmqm)
 
 It goes over:
 * Getting a Firebase Project started
@@ -42,7 +42,7 @@ It goes over:
 
 ## Additional Firebase Example
 
-![Getting-started-with-Firebase repository](https://github.com/TSchotter/Getting-started-with-Firebase)
+[Getting-started-with-Firebase repository](https://github.com/TSchotter/Getting-started-with-Firebase)
 
 The getting-started-with-firebase repository has a more complex example containing:
 * Adding to the database
