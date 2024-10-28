@@ -65,7 +65,7 @@ $> npm i
 
 If you look at the file structure, most of the setup files have been made for you except the config file will look like this:
 
-```typescript
+```tsx
 const firebaseConfig = {
   apiKey: "x",
   authDomain: "x",
@@ -88,13 +88,13 @@ There are four components in the `components` directory. The one in control of a
 
 There are two parts to add information to:
 
-```typescript
+```tsx
 async function createPerson(person: person){
     // Add the person document to the "people" collection
 }
 ```
 
-```typescript
+```tsx
 <button onClick={()=>{
     //Gather the infomation from the other input fields and send them to the createPerson function, as a person
 }}>Add Person</button>
@@ -102,7 +102,7 @@ async function createPerson(person: person){
 
 Both of these parts will be making use of the `person` interface that's stored in the `models` directory.
 
-```typescript
+```tsx
 export type roleType = "Instructor" | "Student" | "TA";
 export interface person {
     fname: string;
@@ -119,7 +119,7 @@ Make sure you have your emulator running.
 
 The last three components are designed to show the values of each of their respective roles.
 
-```typescript
+```tsx
 function InstructorList() {
     return (
         <div>
