@@ -50,6 +50,16 @@ The getting-started-with-firebase repository has a more complex example containi
 * Updating values in the database
 * Tests for all of the above
 
+Go ahead and glone the repository above, then run 
+...
+
+Then run the tests to make sure they run. You should see this output:
+
+screnshot
+
+This will check your Firebase emulator is installed correctly : )
+Also open the example in VSCode and read it over, the task below for this mini-chapter has many similiarities to it.
+
 # Firebase Exercise
 
 Now it's time to try it out for yourself with some goals.
