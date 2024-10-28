@@ -15,4 +15,6 @@ First we learn about the model React uses to manage State, and the basics of Hoo
 
 Then we learn about how to manage State across Components.
 
+In the third section, we're briefly go over Firebase and how to set up a testing enviornment for it.
+
 Finally, we learn about how to make cool user interfaces with Forms that manipulate state.
