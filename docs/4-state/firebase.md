@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Firebase
-nav_order: 5.1
-parent: Complex Representations
+nav_order: 4.3
+parent: Using State
 ---
 
 # Firebase Setup
