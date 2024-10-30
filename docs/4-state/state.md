@@ -601,7 +601,7 @@ The `TwoDice` component will simulate a game where you roll two dice in an attem
 * You will need two "Roll" buttons (labelled `Roll Left` and `Roll Right`).
 * Clicking a Roll button will change the value for the corresponding dice using the provided `d6` function.
 * Make the default initial values of the dice be different, i.e. each value in useState<number>(value)
-* When the two states are equal, render a message that includes the word `Lose`.
+* When the two states are equal and equal to 1, render a message that includes the word `Lose`.
 * When the two states are equal, render a message that includes the word `Win`.
 * If you do all these and are still not passing all tests, read the test file, it is a good practice! In much of software engineering, the tests *are* the product spec.
 
