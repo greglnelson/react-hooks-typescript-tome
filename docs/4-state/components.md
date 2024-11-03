@@ -609,7 +609,7 @@ $> git checkout -b solved-components
 $> git merge upstream/task-components
 ```
 
-Congratulations! We gave you four broken components. Some of them are so broken, they will immediately cause errors. Yay!
+Congratulations! We gave you three broken components. Some of them are so broken, they will immediately cause errors. Yay!
 
 You're going to need to fix the components. Beware: just passing their tests MAY not be sufficient. Make sure you achieve the desired functionality in the correct way. For example, simply deleting a test or component is not a good strategy.
 
