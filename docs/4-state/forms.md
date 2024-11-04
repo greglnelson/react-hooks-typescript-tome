@@ -641,7 +641,7 @@ You may encounter merge errors once again. If so, then you need to resolve the c
 
 ## Creating Components
 
-Once again, you are going to create 5 new components. We have provided you with the skeleton of all 5 components and extensive tests for each component. We have also added them to the `App` component, separated by horizontal rules (`hr` HTML tags). Note that you must follow all of our instructions and requirements!
+Once again, you are going to create 3 new components. We have provided you with the skeleton of all 5 components and extensive tests for each component. We have also added them to the `App` component, separated by horizontal rules (`hr` HTML tags). Note that you must follow all of our instructions and requirements!
 
 You are going to need to edit the components themselves and include them in your `App` component. Remember that you can view your website locally by running it with:
 
@@ -659,18 +659,6 @@ The `CheckAnswer` component allows a user to enter an answer to a short answer q
 * The user's given answer should initially be the empty string
 * When the user's given answer matches the `expectedAnswer`, display ✔️; otherwise display ❌
 
-## GiveAttempts
-
-The `GiveAttempts` component simulates a user taking a quiz with a limited number of attempts, but also provides a way for them to gain as many attempts as they want via a numeric input box.
-
-* You will need a state to represent the number of attempts the user has left, and another state to represent the number of attempts they are requesting.
-* The initial number of attempts left should be 3.
-* The number of attempts left should be visible.
-* There should be a numeric input box where the user can specify their requested number of attempts.
-* There should be two buttons, one labeled `use` that decreases the attempts by one and one labeled `gain` that increases the attempts by the amount in the input box.
-* If the user attempts to request an invalid amount (e.g., the empty string `""`) that cannot be parsed as an integer, then do not change their number of attempts.
-* When the user is out of attempts, the `use` button should be disabled
-
 ## EditMode
 
 The `EditMode` component has two states controlled by a switch: the default state shows text indicating the user's name and whether they are a student, and then the alternate state is an editable form for editing the user's name and whether they are a student.
@@ -687,22 +675,6 @@ HINT: We said "switch" and we meant it.
 HINT: If you can't figure out why you are failing a test, *read the test code*. The tests are the most specific form of description.
 
 HINT: If an element is rendered not visible, then a test looking for it will fail. If a test fails, check to see if the elements you have written are rendered in the Javascript.
-
-## ChangeColor
-
-The `ChangeColor` component offers the user a bunch of radio buttons labeled with different colors; choosing a radio button updates the text and color of a nearby box of text.
-
-* You will need state to represent the chosen color
-* You are free to make up your own list of colors, but you must have AT LEAST 8 unique colors. 
-* Each color must be represented by a radio button.
-* There should be a box of text with a `data-testid="colored-box"` attribute and value.
-* The box of text should have the same text and `backgroundColor` style as the currently selected radio button.
-
-HINT: We strongly recommend you use `map` to render all the color's `Form.Check` tags rather than hardcoding each one!
-
-HINT: We recommend you use the `inline` attribute for the radio buttons.
-
-![Screenshot of the ChangeColor component containing 8 colors, with red currently chosen](../images/task-form-components_change-color.png)
 
 ## MultipleChoiceQuestions
 
