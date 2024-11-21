@@ -694,6 +694,9 @@ $> npm run test:cov
 
 If you are overwhelmed by the number of failing tests, you can focus on just one at a time by typing `p` and entering the name of the file you want to test (e.g., `ChangeColor.test.tsx`). You can go back to running all the tests by typing `a`.
 
+See the [common issues guide for this task](https://docs.google.com/document/d/1K8AAZ2uQU9nmsu1gHSa49Ieyj0hC8FzVaIk78XULCQw/edit?tab=t.0#bookmark=id.fwi8ihqmvliy) and the [instructions](https://docs.google.com/document/d/1aFsbyKnUYfSZb-ns5zbs0D0CsTSDuAi3nzcEKzp6kVI/edit#heading=h.glid2899u37z) for installing the extension that lets you use the VSCode debugger on your tests and shows nicer test output (the Jest extension) (highly recommend learning that and generally avoiding print statement based debugging).
+
+
 As you complete components, use the `git add`/`git commit` or the Visual Studio Code interface to make small regular commits. Practice the habit now!
 
 Once you are passing all the tests, you should be able to push your branch to the remote and make a Pull Request to `main`. We'll be checking your tests to make sure you pass!
