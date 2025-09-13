@@ -235,7 +235,7 @@ Note: if you do not see new failing tests after running that, you have skipped o
 Since we are now failing these tests, we need to fix them. Refer to the information in the page above to tackle each test in turn (such as by pasting in some relevant example code and then editing that code to solve the problem):
 
 * Add a heading
-* Add an image with alt text
+* Add an image with [alt text](https://accessibility.huit.harvard.edu/describe-content-images)
 * Add a list with at least three elements
 * Change the background color of the header area (edit the CSS class in App.css that the `<header>` on your page already uses, review the CSS rules section of the textbook if you need help) 
 * Add a bootstrap button with the text `Log Hello World`
