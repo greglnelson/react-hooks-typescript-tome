@@ -110,7 +110,7 @@ export function App(): JSX.Element {
 
 Embedding an image (`img`) tag requires us to specify an *attribute*. These are `name="value"` pairs inside of the start tag.
 
-The two attributes relevant for an `img` tag are the `src` (the URL of the source image to display) and the `alt` (alternative text to display if the image fails to load for some reason).
+The two attributes relevant for an `img` tag are the `src` (the URL of the source image to display) and the `alt` (alternative text) that is shown for 1) blind and low vision people using screenreaders, and 2) if the image fails to load for some reason.
 
 ```tsx
 export function App(): JSX.Element {
